@@ -8,7 +8,7 @@
 
 ## 🌐 Live Website
 আপনি নিচের লিংক থেকে সাইটটি লাইভ দেখতে পারেন:
-[https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/) *(আপনার গিটহাব ইউজারনেম ও রিপোজিটরি নাম দিয়ে প্রতিস্থাপন করুন)*
+[(https://golgain.github.io/BWP/)] *(আপনার গিটহাব ইউজারনেম ও রিপোজিটরি নাম দিয়ে প্রতিস্থাপন করুন)*
 
 ---
 
