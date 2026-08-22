@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://golgain.github.io/BWP/</loc></url>
+  <url><loc>https://golgain.github.io/BWP/</loc></url>
+  <url><loc>https://golgain.github.io/BWP/about.html</loc></url>
+  <url><loc>https://golgain.github.io/BWP/register.html</loc></url>
+  <url><loc>https://golgain.github.io/BWP/contact.html</loc></url>
+  <url><loc>https://golgain.github.io/BWP/terms.html</loc></url>
+  <url><loc>https://golgain.github.io/BWP/privacy.html</loc></url>
 </urlset>
