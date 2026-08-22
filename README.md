@@ -1,8 +1,39 @@
 # Bangladesh White Party (BWP)
-Complete responsive bilingual static website.
 
-Upload all files to GitHub Pages. Replace the placeholder URL in sitemap.xml with the actual GitHub Pages URL before submitting it to Google Search Console.
+বাংলাদেশ হোয়াইট পার্টি (BWP)—একটি স্বাধীন ছায়া রাজনৈতিক প্ল্যাটফর্ম, থিংক ট্যাংক এবং রাজনৈতিক পাঠশালা[cite: 6]। 
 
-The Bengali content preserves the supplied Google Site's core sections and wording while updating the obsolete 1971 birth-year membership restriction to the present/future rule requested in the discussion. The later-approved organizational provisions are integrated into the constitution.
+> **মূলমন্ত্র:** “নেতা নয়, চাই সৃজনশীল বিবেকবান যোগ্য নেতৃত্ব।”
 
-Source site: https://sites.google.com/view/bangladeshwhiteparty/home
+---
+
+## 🌐 Live Website
+আপনি নিচের লিংক থেকে সাইটটি লাইভ দেখতে পারেন:
+[https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/) *(আপনার গিটহাব ইউজারনেম ও রিপোজিটরি নাম দিয়ে প্রতিস্থাপন করুন)*
+
+---
+
+## 🚀 Features & Pages
+এই প্রজেক্টটিতে আধুনিক এইচটিএমএল, সিএসএস এবং জাভাস্ক্রিপ্ট ব্যবহার করা হয়েছে[cite: 6]। এতে নিচের পেজ ও ফিচারগুলো অন্তর্ভুক্ত রয়েছে:
+* **Home (`index.html`):** মূল দর্শন, ভূমিকা, এবং বাংলা-ইংরেজি ভাষা পরিবর্তন (Bilingual Toggle) সুবিধা।
+* **About (`about.html`):** সংগঠনের পরিচিতি, লক্ষ্য, উদ্দেশ্য এবং পূর্ণাঙ্গ গঠনতন্ত্র।
+* **Member Registration (`register.html`):** শিক্ষানবিশ সদস্য (Trainee Member) হওয়ার জন্য অনলাইন আবেদন ফরম।
+* **Contact (`contact.html`):** মতামত ও যোগাযোগের জন্য ইন্টারেক্টিভ ফর্ম।
+* **Legal Pages (`terms.html` & `privacy.html`):** ব্যবহারের শর্তাবলী এবং গোপনীয়তা নীতি।
+
+---
+
+## 🛠️ Tech Stack
+* **HTML5:** স্ট্রাকচার ও মার্কআপ
+* **CSS3:** স্টাইলিং ও রেসপন্সিভ ডিজাইন
+* **JavaScript:** ইন্টারঅ্যাক্টিভিটি ও ভাষা টগল করার লজিক[cite: 8]
+
+---
+
+## ⚙️ How to Run Locally
+১. এই রিপোজিটরি ফোল্ডারটি আপনার কম্পিউটারে ক্লোন বা ডাউনলোড করুন।
+২. ফোল্ডারের ভেতর থাকা `index.html` ফাইলটি আপনার যেকোনো পছন্দের ব্রাউজারে ওপেন করুন।
+
+---
+
+## 📄 License
+এই প্রজেক্টটি ওপেন সোর্স এবং বাংলাদেশ হোয়াইট পার্টির বুদ্ধিবৃত্তিক কাঠামোর অধীনে পরিচালিত।
