@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainee Member Registration — বাংলাদেশ হোয়াইট পার্টি (BWP)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon / Logo Link -->
+    <link rel="icon" type="image/png" href="logo.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dark d-flex align-items-center gap-2" href="index.html">
+                <span class="badge bg-primary text-white rounded-pill px-2 py-1 fs-6">BWP</span>
+                <span>বাংলাদেশ হোয়াইট পার্টি</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">হোম</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">আমরা</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">সদস্য হোন</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">যোগাযোগ</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <button id="langToggleBtn" class="btn btn-outline-dark btn-sm px-3 fw-bold rounded-pill">English</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5" style="max-width: 850px;">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold text-dark mb-2">Trainee Member Registration</h1>
+            <p class="text-secondary">বাংলাদেশ হোয়াইট পার্টির (BWP) নীতি ও গঠনতন্ত্র মেনে শিক্ষানবিশ সদস্য হিসেবে যুক্ত হতে নিচের ফরমটি পূরণ করুন। (বয়স ন্যূনতম ১৬ বছর)</p>
+        </div>
+
+        <div class="card shadow-sm border-0 p-4 rounded-4">
+            <form id="memberRegisterForm">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="regName" class="form-label fw-semibold">পূর্ণ নাম</label>
+                        <input type="text" class="form-control" id="regName" placeholder="আপনার পূর্ণ নাম" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="regEmail" class="form-label fw-semibold">ইমেইল ঠিকানা</label>
+                        <input type="email" class="form-control" id="regEmail" placeholder="example@email.com" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="regPhone" class="form-label fw-semibold">মোবাইল নম্বর</label>
+                        <input type="tel" class="form-control" id="regPhone" placeholder="01XXXXXXXXX" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="regAge" class="form-label fw-semibold">বয়স</label>
+                        <input type="number" class="form-control" id="regAge" min="16" max="120" placeholder="আপনার বয়স" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="regDistrict" class="form-label fw-semibold">জেলা</label>
+                        <input type="text" class="form-control" id="regDistrict" placeholder="আপনার জেলার নাম" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="regProfession" class="form-label fw-semibold">পেশা</label>
+                        <input type="text" class="form-control" id="regProfession" placeholder="যেমন: শিক্ষার্থী, চাকুরিজীবী ইত্যাদি" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="regReason" class="form-label fw-semibold">কেন BWP-তে যুক্ত হতে চান?</label>
+                        <textarea class="form-control" id="regReason" rows="3" placeholder="সংক্ষেপে আপনার উদ্দেশ্য লিখুন..." required></textarea>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <button type="submit" class="btn btn-dark w-100 py-2 fw-bold">নিবন্ধন সম্পন্ন করুন (Submit)</button>
+                    </div>
+                </div>
+            </form>
+            <div id="registerSuccessAlert" class="alert alert-success mt-3 d-none" role="alert">
+                অভিনন্দন! আপনার Trainee Member হিসেবে নিবন্ধনের আবেদন সফলভাবে জমা হয়নি। কারন এই সেবাটি এখনো সক্রিয় নয়। ধন্যবাদ!
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">&copy; ২০২৬ বাংলাদেশ হোয়াইট পার্টি (BWP)। সর্বস্বত্ব সংরক্ষিত।</p>
+            <ul class="list-inline mb-0 small text-white-50">
+                <li class="list-inline-item"><a href="index.html" class="text-white-50 text-decoration-none">হোম</a></li>
+                <li class="list-inline-item">&bull;</li>
+                <li class="list-inline-item"><a href="privacy.html" class="text-white-50 text-decoration-none">প্রাইভেসি</a></li>
+                <li class="list-inline-item">&bull;</li>
+                <li class="list-inline-item"><a href="terms.html" class="text-white-50 text-decoration-none">শর্ত</a></li>
+                <li class="list-inline-item">&bull;</li>
+                <li class="list-inline-item"><a href="contact.html" class="text-white-50 text-decoration-none">যোগাযোগ</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
